@@ -1,6 +1,6 @@
 # Rick and Morty App 📺
 
-¡This is my first project with React! It was big challenge! 
+¡This is my first project with React! It was a big challenge! 
 
 ![rick-morty-img](https://i.ibb.co/wdvvHLW/rickmorty.png)
 
