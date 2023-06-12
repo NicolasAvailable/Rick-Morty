@@ -17,7 +17,6 @@ export default function Characters() {
   const [characters, setCharacters] = useState<Result[]>([]);
   const [page, setPage] = useState<number>(1);
   const [search, setSearch] = useState<string>('');
-  console.log(search);
   
   useEffect( () => {
     async function getCharactersNow() {
@@ -37,7 +36,6 @@ export default function Characters() {
   const characterFiltered = characters.filter( character => 
   character.name.toLowerCase().includes(search.toLowerCase()) );
   
-  console.log(characterFiltered);
   
   
   return (
